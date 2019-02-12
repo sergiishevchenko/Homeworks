@@ -1,0 +1,53 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    font-size: 30px;
+    text-align:  center;
+    color: gold;
+}
+
+h2 {
+    text-align:  center;
+    color: gold;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.note {
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+}
+
+.head {
+    border: 2px solid gold;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.content {
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -5%;
+    background-color: rgba(226, 189, 23, 0.8);
+
+}
