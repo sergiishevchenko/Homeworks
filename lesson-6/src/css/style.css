@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    max-width: 1010px;
+    min-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    margin-bottom: 86px;
+    border: 1px solid #d7d7d7;
+    background-color: #ffffff;
+}
+
+.glasses {
+    margin: 64px 0px 64px 48px;
+}
+
+.phones {
+    vertical-align: 409px;
+    margin-left: 33.5px;
+    display: inline-block;
+    width: 178px;
+    
+    color: #2f2f2f;
+    font-family: "Arial - Bold MT";
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.description {
+    position: absolute;
+    margin: 146px 93px 307px -178px;
+    display: inline-block;
+    width: 393px;
+    height: 50px;
+    color: #2f2f2f;
+    font-family: "Arial MT";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.price {
+    margin: 251px 93px 307px -178px;
+    display: inline-block;
+    position: absolute;
+    width: 35px;
+    height: 14px;
+    color: #2f2f2f;
+    font-family: "Arial MT";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.price-content {
+    margin: 288px 93px 307px -178px;
+    display: inline-block;
+    position: absolute;
+    width: 103px;
+    height: 28px;
+    color: #2f2f2f;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+button {
+    width: 252px;
+    height: 50px;
+    background-color: #ec744a;
+    margin: 372px 93px 307px -178px;
+    display: inline-block;
+    position: absolute;
+
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 19px;
+    font-weight: 400;
+}
