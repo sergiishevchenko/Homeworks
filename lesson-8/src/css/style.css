@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 96%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 159px;
+}
+
+.brand {
+    color: #95989a;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero {
+    padding-top: 70px;
+    padding-bottom: 190px;
+    background-color: #f4f5f7;
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text {
+    width: 50%;
+    color: #32325f;
+}
+
+.subtitle {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.title {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 26px;
+}
+
+.discription {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.price-tag {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #525f7f;
+    font-family: "Helvetica Neue";
+    font-size: 48px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 49px;
+}
+
+.btn {
+    text-decoration: none;   
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    border-radius: 6px;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-success {
+    background-color: #2dce89;
+}
+
+.btn-primary {
+    background-color: #5e72e4;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-subtitle {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.block {
+    width: 23%;
+    margin-right: 2%;
+}
+
+.block-text {
+    color: #525f7f;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 0;
+    line-height: 1.4;
+}
+
+.footer {
+    background-color: #32325f;
+    color: white;   
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-block {
+    width: 33%;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.footer a {
+    display: block;
+    color: white;
+}
+
+.footer p {
+    line-height: 1.4;
+    
+}
+
+.people-subtitle {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.people-title {
+    color: #32325f;
+    font-family: "Helvetica Neue";
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.people {
+    padding-top: 70px;
+    padding-bottom: 190px;
+    background-color: #f4f5f7;
+}
+
+.people-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+
+.foto {
+    margin-top: 36px;
+    width: 362px;
+    height: 254px;
+}
