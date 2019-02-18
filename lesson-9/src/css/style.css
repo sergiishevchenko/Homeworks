@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+.row {
+    margin-top: 82px;
+}
+
+.note {
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 71px;
+    height: 71px; 
+}
