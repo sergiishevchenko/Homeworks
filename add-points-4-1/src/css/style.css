@@ -49,21 +49,23 @@
 
 .btn {
   width: 133px;
+  height: 41px;
   border: 2px solid #66cc66;
+  border-radius: 0;
   color: #66cc66;
   font-family: "PF Din Text Cond Pro";
   font-size: 14px;
   font-weight: 700;
-  line-height: 25px;
   text-transform: uppercase; }
   .btn-active {
+    height: 41px;
     width: 133px;
     background-color: #66cc66;
     color: #ffffff;
     font-family: "PF Din Text Cond Pro";
     font-size: 14px;
     font-weight: 700;
-    line-height: 25px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-width: 59px; }
 
 /*# sourceMappingURL=style.css.map */
