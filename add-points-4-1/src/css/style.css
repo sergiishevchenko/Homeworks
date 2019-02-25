@@ -24,30 +24,45 @@
             justify-content: space-between;
     margin-left: auto;
     margin-right: auto; }
-  .hero-image {
-    width: 276px; }
-    .hero-image__text {
-      margin-top: 30px;
-      margin-bottom: 29px;
-      color: #666666;
-      font-family: "PF Din Text Cond Pro";
-      font-size: 18px;
-      font-weight: 500;
-      text-transform: uppercase;
-      text-align: center; }
-
-.buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+    .hero-block__image {
+      width: 276px; }
+      .hero-block__image-text {
+        margin-top: 30px;
+        margin-bottom: 29px;
+        color: #666666;
+        font-family: "PF Din Text Cond Pro";
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center; }
+      .hero-block__image-buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
 
 .btn {
-  width: 133px; }
+  width: 133px;
+  border: 2px solid #66cc66;
+  color: #66cc66;
+  font-family: "PF Din Text Cond Pro";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase; }
+  .btn-active {
+    width: 133px;
+    background-color: #66cc66;
+    color: #ffffff;
+    font-family: "PF Din Text Cond Pro";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
