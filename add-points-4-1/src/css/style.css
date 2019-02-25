@@ -57,6 +57,12 @@
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
+  .btn-about {
+    width: 67px;
+    text-align: center; }
+  .btn-order {
+    width: 59px;
+    text-align: center; }
   .btn-active {
     height: 41px;
     width: 133px;
