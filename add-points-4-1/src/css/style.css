@@ -1,0 +1,52 @@
+.hero {
+  margin-top: 279px; }
+  .hero-text {
+    color: #666666;
+    font-family: "PF Din Text Cond Pro";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center; }
+  .hero-block {
+    margin-top: 75px;
+    width: 1176px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto; }
+  .hero-image {
+    width: 276px; }
+    .hero-image__text {
+      margin-top: 30px;
+      margin-bottom: 29px;
+      color: #666666;
+      font-family: "PF Din Text Cond Pro";
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center; }
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.btn {
+  width: 133px; }
+
+/*# sourceMappingURL=style.css.map */
