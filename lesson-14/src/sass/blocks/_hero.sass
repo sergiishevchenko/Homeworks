@@ -1,21 +1,23 @@
 .hero
     background-color: #f5f5f5
     padding: 50px 0
+    &-image
+        width: 570px
     &-block
         display: flex
         align-items: center
     &-text
-        flex-basis: 50%
+        flex-basis: 42%
         padding-right: 140px
         &__title
             font-size: 41px
-            font-weight: 600
+            +bold
             line-height: 55px
             margin-bottom: 40px
         &__subtitle
             display: inline-block
             font-size: 20px
-            font-weight: 400
+            +bold
             margin-bottom: 70px
     &-list
         margin: 0
@@ -68,13 +70,13 @@
                 color: #333333
                 font-family: "Museo Sans Cyrl -700"
                 font-size: 24px
-                font-weight: 400
+                +bold
                 margin-bottom: 13px
             &__subtitle
                 color: #333333
                 font-family: "Museo Sans Cyrl -700"
                 font-size: 16px
-                font-weight: 400
+                +bold
                 margin-bottom: 28px
         &-list
             &__item
@@ -85,6 +87,5 @@
                 color: #333333
                 font-family: "Museo Sans Cyrl -300"
                 font-size: 12px
-                font-weight: 400
             &__image
                 margin-right: 15px
