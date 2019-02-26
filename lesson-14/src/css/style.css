@@ -116,7 +116,7 @@ img {
   .hero-text {
     -ms-flex-preferred-size: 42%;
         flex-basis: 42%;
-    padding-right: 140px; }
+    padding-right: 130px; }
     .hero-text__title {
       font-size: 41px;
       font-family: 'Museo Sans Bold', sans-serif;
