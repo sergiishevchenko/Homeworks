@@ -60,7 +60,7 @@ img {
   font-size: 15px;
   border-radius: 10px; }
   .input:focus {
-    border: 2px solid #FF7F50;
+    border: 1px solid #FF7F50;
     outline: none; }
 
 .navbar {
