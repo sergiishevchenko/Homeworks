@@ -59,6 +59,8 @@ img {
   padding: 20px 26px;
   font-size: 15px;
   border-radius: 10px; }
+  .input:focus {
+    border: 2px solid #FF7F50; }
 
 .navbar {
   padding: 8px 0; }
@@ -236,7 +238,7 @@ img {
 .offer {
   background: url("../img/offer/offer-bg.png") no-repeat;
   background-position: center right;
-  background-size: content;
+  background-size: contain;
   position: relative; }
   .offer:before {
     content: "";
