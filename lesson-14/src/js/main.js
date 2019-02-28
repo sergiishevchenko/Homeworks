@@ -9,3 +9,7 @@ button.addEventListener('click', function() {
 close.addEventListener('click', function() {
     modal.classList.remove('modal_active');
 });
+
+setInterval(function() {
+    document.getElementById('modal').style.display = 'none';
+  }, 5000);
