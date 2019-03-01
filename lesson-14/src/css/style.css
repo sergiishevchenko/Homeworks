@@ -63,6 +63,26 @@ img {
     border: 1px solid #FF7F50;
     outline: none; }
 
+.scrollup {
+  position: fixed;
+  color: #FF7F50;
+  background-color: #286090;
+  width: 50px;
+  height: 80px;
+  bottom: 50px;
+  padding: 4px 10px;
+  font-size: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  cursor: pointer;
+  display: none;
+  text-align: center; }
+  .scrollup:hover {
+    background-color: #FF7F50; }
+
+.arrow {
+  margin-top: 15px; }
+
 .navbar {
   padding: 8px 0; }
   .navbar-block {

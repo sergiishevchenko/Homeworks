@@ -114,6 +114,10 @@
       </div>
    </div>
 
+   <div class="scrollup">
+      <img class="arrow" src="img/up-arrow.svg">
+    </div>
+
    <script src="../src/js/main.js"></script>
    <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -121,5 +125,22 @@
       crossorigin="anonymous">
    </script>
    <script src="js/modal.js"></script>
+   <script>
+      $(function() {
+        $('.scrollup').click(function() {
+          $("html, body").animate({
+            scrollTop:0
+          },1000);
+        })
+      })
+      $(window).scroll(function() {
+        if ($(this).scrollTop()>200) {
+          $('.scrollup').fadeIn();
+        }
+        else {
+          $('.scrollup').fadeOut();
+        }
+      });
+      </script>
 </body>
 </html>
