@@ -181,38 +181,34 @@
       });
    </script> -->
    <script src="js/owl.carousel.min.js"></script>
-   <!-- <script>
-      $(document).ready(function(){
-         $(".owl-carousel").owlCarousel();
-      });
-   </script> -->
    <script>
-      
-      $(".owl-carousel").owlCarousel({
-         loop:true,
-         margin:10,
-         nav: false,
-         responsive:{
-            0:{
-               items:1
-            },
-            768:{
-               items:2
-            },
-            1200:{
-               items:3
+      $(document).ready(function(){
+         $(".owl-carousel").owlCarousel({
+            loop:true,
+            margin:10,
+            nav: false,
+            responsive:{
+               0:{
+                  items:1
+               },
+               768:{
+                  items:2
+               },
+               1200:{
+                  items:3
+               }
             }
-         }
+         });
+         var owl = $('.owl-carousel');
+         owl.owlCarousel();
+         $('.arrows__left').click(function() {
+            owl.trigger('next.owl.carousel');
+         })
+         $('.arrows__right').click(function() {
+            owl.trigger('prev.owl.carousel');
+         })
       });
       
-      var owl = $('.owl-carousel');
-      owl.owlCarousel();
-      $('.arrows__left').click(function() {
-         owl.trigger('next.owl.carousel');
-      })
-      $('.arrows__right').click(function() {
-         owl.trigger('prev.owl.carousel');
-      })
    </script>
 
    <!-- <script>
