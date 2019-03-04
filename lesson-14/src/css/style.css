@@ -361,7 +361,9 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between; }
 
-.slider__image {
+.owl-carousel__item {
+  width: 95%; }
+.owl-carousel__image {
   margin: auto; }
 
 .modal {
