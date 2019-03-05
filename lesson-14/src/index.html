@@ -353,9 +353,12 @@
             owl.trigger('prev.owl.carousel');
          })
          
-         if ($(window).scrollTop() > 5) {
-            slideRight();
-         }
+         $(window).scroll(function(){
+            if ( $(this).scrollTop() > 500 ) {
+               $(".offer__title").css("font-size","40px");
+               $(".offer__title").css("color","orange");
+            }
+         });
    
       });
    </script>

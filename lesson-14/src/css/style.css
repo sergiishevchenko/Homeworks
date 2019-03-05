@@ -521,8 +521,18 @@ img {
 @media (max-width: 768px) {
   .step {
     margin-bottom: 30px; }
+    .step__image {
+      padding: 33px; }
     .step:after {
       display: none; }
+    .steps__title {
+      margin: auto;
+      margin-bottom: 27px; }
+    .steps__subtitle {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 34px; }
     .steps-block {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
